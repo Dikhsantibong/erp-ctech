@@ -1,139 +1,19 @@
-<!DOCTYPE html>
-<html lang="zxx">
-    <head>
-        <!--====== Required meta tags ======-->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Digital Agency, Creative Agency, Marketing Agency">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--====== Title ======-->
-        <title>Agenko - Creative Digital Agency HTML Template</title>
-        <!--====== Favicon Icon ======-->
-        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
-        <!--====== Google Fonts ======-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-        <!--====== Flaticon css ======-->
-        <link rel="stylesheet" href="{{ asset('assets/fonts/flaticon/flaticon_agenko.css') }}">
-        <!--====== FontAwesome css ======-->
-        <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
-        <!--====== Bootstrap css ======-->
-        <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
-        <!--====== Slick-popup css ======-->
-        <link rel="stylesheet" href="assets/css/plugins/slick.css">
-        <!--====== Magnific-popup css ======-->
-        <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
-        <!--====== Default css ======-->
-        <link rel="stylesheet" href="assets/css/default.css">
-        <!--====== Style css ======-->
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
+@extends('layouts.app')
+
+
+@section('content')
+<!--====== Required meta tags, styles, scripts, and all body content dipindahkan ke sini dari file asli -->
         <!--====== Preloader ======-->
         <div class="preloader">
             <div class="loading-container">
                 <div class="loading"></div>
-                <div id="loading-icon"><img src="assets/images/loader.png" alt=""></div>
+                <div id="loading-icon"><img src="{{ asset('assets/images/loader.png') }}" alt=""></div>
             </div>
         </div>
         <!--====== Start Overlay ======-->
         <div class="offcanvas__overlay"></div>
         <!--=== Start  Header Area  ===-->
-        <header class="header-area header-two transparent-header">
-            <!--====  Header Navigation  ===-->
-            <div class="header-navigation">
-                <!--====  Header Nav Inner  ===-->
-                <div class="container">
-                    <!--====  Primary Menu  ===-->
-                    <div class="primary-menu">
-                        <!--====  Site Branding  ===-->
-                        <div class="site-branding">
-                            <a href="index.html" class="brand-logo"><img src="assets/images/digital-agency/logo/logo-main.png" alt="Brand Logo"></a>
-                        </div>
-                        <!--=== Sasly Main Menu===-->
-                        <div class="pf-nav-menu">
-                            <!--====  Site Branding  ===-->
-                            <div class="site-branding d-block d-lg-none text-center">
-                                <a href="index.html" class="brand-logo"><img src="assets/images/creative-agency/logo/logo-main.png" alt="Brand Logo"></a>
-                            </div>
-                            <!--=== Main Menu ===-->
-                            <nav class="main-menu">
-                                <ul>
-                                    <li class="menu-item has-children"><a href="index.html">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Creative Agency</a></li>
-                                            <li><a href="index-2.html">Digital Agency</a></li>
-                                            <li><a href="index-3.html">Marketing Agency</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="services.html">Our Services</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="faqs.html">Faqs</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Portfolio</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="project-details.html">Project Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                            <!--=== PF Nav Button ===-->
-                            <div class="pf-nav-button mt-20 d-block d-md-none">
-                                <a href="contact.html" class="theme-btn style-one">
-                                    <span class="text-flip">
-                                        <span class="text">LETS TALK</span>
-                                        <span class="text">LETS TALK</span>
-                                    </span>
-                                </a>
-                            </div>
-                            <!--=== PF Menu Bottom ===-->
-                            <div class="pf-menu-bottom mt-50 d-block d-lg-none">
-                                <h5>Follow Us</h5>
-                                <ul class="social-link">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--=== Header Nav Right ===-->
-                        <div class="nav-right-item">
-                            <div class="nav-button d-none d-md-block">
-                                <a href="contact.html" class="theme-btn style-one">
-                                    <span class="text-flip">
-                                        <span class="text">LETS TALK</span>
-                                        <span class="text">LETS TALK</span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="navbar-toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-        </header><!--=== End  Header Area  ===-->
+       @include('partials.header')
         <!--======  Smooth Wrapper  ======-->
         <div id="smooth-wrapper">
             <div id="smooth-content">
@@ -141,95 +21,93 @@
                 <main>
                     <!--======  Start Hero Section  ======-->
                     <section class="agk-hero">
-                        <!--=== Hero Wrapper One ===-->
-                        <div class="hero-wrapper-two">
-                            <div class="shape shape-one"><span><img class="rotate360" src="assets/images/digital-agency/hero/shape/shape1.png" alt="Shape"></span></div>
-                            <div class="shape shape-two"><span><img class="animate-float-bob-y" src="assets/images/digital-agency/hero/shape/shape2.png" alt="Shape"></span></div>
-                            <div class="shape circle-one"><span></span></div>
-                            <div class="shape circle-two"><span></span></div>
+                        <div class="hero-wrapper-three">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <!--=== Hero Content ===-->
-                                        <div class="hero-content">
-                                            <h1>
-                                                <span class="text-anm">Digital Modern</span>
-                                                <span class="text-anm">Agency</span>
-                                            </h1>
-                                            <div class="pro">Pro</div>
-                                            <div class="text-box pf_fadeup">
-                                                <p>A <span>Digital Modern Agency</span> specializing in innovative web app design branding, and marketing solutions to elevate your business.</p>
-                                                <div class="hero-button">
-                                                    <a href="about.html" class="theme-btn style-one">
-                                                        <span class="text-flip">
-                                                            <span class="text">LEARN MORE</span>
-                                                            <span class="text">LEARN MORE</span>
-                                                        </span>
-                                                    </a>
+                                        <div class="hero-content mb-70 pf_fadeup">
+                                            <h1>Agency For Growth Through Innovative <span>Marketing.</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--=== Hero Image ===-->
+                            <div class="hero-image-box text-center pf_fadeup">
+                                <img src="assets/images/marketing-agency/hero/hero-img1.jpg" alt="Hero Iamge">
+                                <svg width="835" height="172" viewBox="0 0 835 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M42 92V41.5C42 18.5802 23.4198 0 0.5 0H834.5V171.999C834.5 149.907 816.591 132 794.5 132H82C59.9086 132 42 114.091 42 92Z" fill="#0E0F11"/>
+                                </svg>
+                                <div class="text-box">
+                                    <p>A <span>digital marketing agency</span> focused delivering innovative strategies to accelerate business growth, enhance brand visibility, and increase customer engagement, using data-driven approaches.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section><!--======  End Hero Section  ======-->
+                    <!--======  Start Company Section  ======-->
+                    <section class="agk-company">
+                        <div class="container">
+                            <div class="company-slider-wrapper">
+                                <svg width="1293" height="6" viewBox="0 0 1293 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 3L5 5.88675V0.113249L0 3ZM1287.33 3C1287.33 4.47276 1288.53 5.66667 1290 5.66667C1291.47 5.66667 1292.67 4.47276 1292.67 3C1292.67 1.52724 1291.47 0.333333 1290 0.333333C1288.53 0.333333 1287.33 1.52724 1287.33 3ZM4.5 3.5H1290V2.5H4.5V3.5Z" fill="#313131"/>
+                                    </svg>
+                                    
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <!--=== Company Slider ===-->
+                                        <div class="company-slider pt-40 pb-30">
+                                            <!--=== Company Item ===-->
+                                            <div class="company-item">
+                                                <div class="agk-image">
+                                                    <img src="assets/images/marketing-agency/company/company1.png" alt="Company">
+                                                </div>
+                                            </div>
+                                            <!--=== Company Item ===-->
+                                            <div class="company-item">
+                                                <div class="agk-image">
+                                                    <img src="assets/images/marketing-agency/company/company2.png" alt="Company">
+                                                </div>
+                                            </div>
+                                            <!--=== Company Item ===-->
+                                            <div class="company-item">
+                                                <div class="agk-image">
+                                                    <img src="assets/images/marketing-agency/company/company3.png" alt="Company">
+                                                </div>
+                                            </div>
+                                            <!--=== Company Item ===-->
+                                            <div class="company-item">
+                                                <div class="agk-image">
+                                                    <img src="assets/images/marketing-agency/company/company4.png" alt="Company">
+                                                </div>
+                                            </div>
+                                            <!--=== Company Item ===-->
+                                            <div class="company-item">
+                                                <div class="agk-image">
+                                                    <img src="assets/images/marketing-agency/company/company5.png" alt="Company">
+                                                </div>
+                                            </div>
+                                            <!--=== Company Item ===-->
+                                            <div class="company-item">
+                                                <div class="agk-image">
+                                                    <img src="assets/images/marketing-agency/company/company6.png" alt="Company">
+                                                </div>
+                                            </div>
+                                            <!--=== Company Item ===-->
+                                            <div class="company-item">
+                                                <div class="agk-image">
+                                                    <img src="assets/images/marketing-agency/company/company3.png" alt="Company">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <ul class="service-list pf_fadeup">
-                                            <li>
-                                                <!--=== Iconic Box ===-->
-                                                <a href="service-details.html" class="agenko-iconic-box style-one">
-                                                    <div class="icon">
-                                                        <i class="flaticon-cloud-computing"></i>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h4 class="title">Website Design Service</h4>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <!--=== Iconic Box ===-->
-                                                <a href="service-details.html" class="agenko-iconic-box style-one">
-                                                    <div class="icon">
-                                                        <i class="flaticon-web-development"></i>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h4 class="title">Web Development Service</h4>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <!--=== Iconic Box ===-->
-                                                <a href="service-details.html" class="agenko-iconic-box style-one">
-                                                    <div class="icon">
-                                                        <i class="flaticon-idea"></i>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h4 class="title">Brand Strategy Solutions</h4>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <!--=== Iconic Box ===-->
-                                                <a href="service-details.html" class="agenko-iconic-box style-one">
-                                                    <div class="icon">
-                                                        <i class="flaticon-announcement"></i>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h4 class="title">Digital Marketing Solution</h4>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-8">
-                                        <!--=== Hero Image Box ===-->
-                                        <div class="hero-image style-one pf_fadeup">
-                                            <img src="assets/images/digital-agency/hero/hero-img1.jpg" alt="Hero Image">
-                                        </div>
-                                    </div>
-                                </div>
+                                <svg width="1293" height="6" viewBox="0 0 1293 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1293 3L1288 0.113249V5.88675L1293 3ZM5.66663 3C5.66663 1.52724 4.47266 0.333333 3 0.333333C1.52722 0.333333 0.333252 1.52724 0.333252 3C0.333252 4.47276 1.52722 5.66667 3 5.66667C4.47266 5.66667 5.66663 4.47276 5.66663 3ZM1288.5 2.5L3 2.5V3.5L1288.5 3.5V2.5Z" fill="#313131"/>
+                                    </svg>
+                                    
                             </div>
                         </div>
-                    </section><!--======  End Hero Section  ======-->
+                    </section><!--======  End Company Section  ======-->
                     <!--======  Start About Section  ======-->
                     <section class="agk-about pt-130 pb-80">
                         <div class="container">
@@ -289,82 +167,111 @@
                             </div>
                         </div>
                     </section><!--======  End About Section  ======-->
-                    <!--======  Start Services Section  ======-->
-                    <section class="agk-services gray-dark pt-130 pb-100">
+                    <!--======  Start Counter Section  ======-->
+                    <section class="agk-counter pt-60 pb-30 gray-dark">
                         <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7">
-                                    <!--=== Section Title ===-->
-                                    <div class="section-title mb-65 pf_fadeup">
-                                        <span class="sub-title">Our Services</span>
-                                        <h2>Building Tomorrow's Digital 
-                                            Experiences Today</h2>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <!--=== Agk Counter Item ===-->
+                                    <div class="agenko-counter-box style-two text-center mb-40 pf_fadeup">
+                                        <div class="content">
+                                            <h2><span class="count">15</span>k+</h2>
+                                            <p>Project Complete</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
-                                    <div class="text-box mb-60 pf_fadeup">
-                                        <p>Creating cutting-edge digital experiences that blend innovation and functionality to meet the evolving needs of tomorrow’s businesses and users</p>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <!--=== Agk Counter Item ===-->
+                                    <div class="agenko-counter-box style-two text-center mb-40 pf_fadeup">
+                                        <div class="content">
+                                            <h2><span class="count">28</span>+</h2>
+                                            <p>Years Experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <!--=== Agk Counter Item ===-->
+                                    <div class="agenko-counter-box style-two text-center mb-40 pf_fadeup">
+                                        <div class="content">
+                                            <h2><span class="count">30</span>+</h2>
+                                            <p>Team Member</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <!--=== Agk Counter Item ===-->
+                                    <div class="agenko-counter-box style-two text-center mb-40 pf_fadeup">
+                                        <div class="content">
+                                            <h2><span class="count">49</span>+</h2>
+                                            <p>Awards Winning</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><!--======  End Counter Section  ======-->
+                    <!--======  Start Services Section  ======-->
+                    <section class="agk-services pt-120">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!--=== Section Title ===-->
+                                    <div class="section-title mb-50 pf_fadeup">
+                                        <span class="sub-heading">Our Service</span>
+                                        <h2>We are Digital Agency With
+                                            25+ Years Experience</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <!--=== Text Box ===-->
+                                    <div class="text-box mb-50 pf_fadeup">
+                                        <p>We are a <span>Digital Agency</span> with over 25 years of experience, specializing in delivering cutting-edge digital solutions, including web design, marketing, and branding, to help businesses achieve sustainable growth and success.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <!--=== Card Item ===-->
-                                    <div class="agenko-card-item style-one mb-30 pf_fadeup">
-                                        <div class="card-title">
-                                            <div class="sn-number">01</div>
-                                            <h3 class="title">Website Development</h3>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <!--=== Agk Iconic Box ===-->
+                                    <div class="agenko-iconic-box style-six mb-40 pf_fadeup">
+                                        <div class="icon">
+                                            <i class="flaticon-network"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Business and corporate <span>web dashboard</span> focuses on creating intuitive, data-driven interfaces that enhance decision-making, streamline processes.</p>
-                                        </div>
-                                        <div class="card-button">
-                                            <a href="service-details.html" class="theme-btn style-one">
-                                                <span class="text-flip">
-                                                    <span class="text">LEARN MORE</span>
-                                                    <span class="text">LEARN MORE</span>
-                                                </span>
-                                            </a>
+                                            <h4>Business Service</h4>
+                                            <p>Offering a wide range of business services, including consulting, strategy development, and operational support to drive efficiency.</p>
+                                            <div class="agk-button">
+                                                <a href="services.html" class="theme-btn style-two"><span class="text">Learn More</span></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <!--=== Card Item ===-->
-                                    <div class="agenko-card-item style-one mb-30 pf_fadeup">
-                                        <div class="card-title">
-                                            <div class="sn-number">02</div>
-                                            <h3 class="title">E-commerce Solutions</h3>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <!--=== Agk Iconic Box ===-->
+                                    <div class="agenko-iconic-box style-six mb-40 pf_fadeup">
+                                        <div class="icon">
+                                            <i class="flaticon-network"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Comprehensive <span>e-commerce solutions</span> designed to optimize user experience, boost conversions, and streamline online transactions. Our tailored.</p>
-                                        </div>
-                                        <div class="card-button">
-                                            <a href="service-details.html" class="theme-btn style-one">
-                                                <span class="text-flip">
-                                                    <span class="text">LEARN MORE</span>
-                                                    <span class="text">LEARN MORE</span>
-                                                </span>
-                                            </a>
+                                            <h4>Intelligent Architecture</h4>
+                                            <p>Offering a wide range of business services, including consulting, strategy development, and operational support to drive efficiency.</p>
+                                            <div class="agk-button">
+                                                <a href="service-details.html" class="theme-btn style-two"><span class="text">Learn More</span></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <!--=== Card Item ===-->
-                                    <div class="agenko-card-item style-one mb-30 pf_fadeup">
-                                        <div class="card-title">
-                                            <div class="sn-number">03</div>
-                                            <h3 class="title">Branding & Identity Design</h3>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <!--=== Agk Iconic Box ===-->
+                                    <div class="agenko-iconic-box style-six mb-40 pf_fadeup">
+                                        <div class="icon">
+                                            <i class="flaticon-network"></i>
                                         </div>
                                         <div class="content">
-                                            <p>Crafting <span>unique branding</span> and identity designs that reflect your brand’s values, build recognition, and create a lasting impression on audiences</p>
-                                        </div>
-                                        <div class="card-button">
-                                            <a href="service-details.html" class="theme-btn style-one">
-                                                <span class="text-flip">
-                                                    <span class="text">LEARN MORE</span>
-                                                    <span class="text">LEARN MORE</span>
-                                                </span>
-                                            </a>
+                                            <h4>Branding Service</h4>
+                                            <p>Offering a wide range of business services, including consulting, strategy development, and operational support to drive efficiency.</p>
+                                            <div class="agk-button">
+                                                <a href="service-details.html" class="theme-btn style-two"><span class="text">Learn More</span><span class="icon"></span></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -372,23 +279,24 @@
                         </div>
                     </section><!--======  End Services Section  ======-->
                     <!--======  Start Project Section  ======-->
-                    <section class="agk-project pt-130 pb-80">
+                    <section class="agk-project pt-85 pb-100">
                         <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7">
+                            <div class="row align-items-end">
+                                <div class="col-lg-6">
                                     <!--=== Section Title ===-->
-                                    <div class="section-title mb-60 pf_fadeup">
-                                        <span class="sub-title">Our Work</span>
-                                        <h2>Building Tomorrow's Digital 
-                                            Experiences Today</h2>
+                                    <div class="section-title mb-55 pf_fadeup">
+                                        <span class="sub-title">Complete work</span>
+                                        <h2>We are leading Innovative
+                                            marketing agency.</h2>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
-                                    <div class="agk-button mb-60 float-lg-end pf_fadeup">
+                                <div class="col-lg-6">
+                                    <!--=== Agk Button ===-->
+                                    <div class="agk-button float-lg-end mb-60 pf_fadeup">
                                         <a href="projects.html" class="theme-btn style-one">
                                             <span class="text-flip">
-                                                <span class="text">View All Work</span>
-                                                <span class="text">View All Work</span>
+                                                <span class="text">LEARN MORE</span>
+                                                <span class="text">LEARN MORE</span>
                                             </span>
                                         </a>
                                     </div>
@@ -396,861 +304,321 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <!--=== Project Item ===-->
-                                    <div class="agenko-project-item style-one mb-45 pf_fadeup">
+                                    <!--=== Agk Project Item ===-->
+                                    <div class="agenko-project-item style-three mb-50 pf_fadeup">
                                         <div class="thumbnail">
-                                            <img src="assets/images/digital-agency/project/project1.jpg" alt="Project Image">
-                                            <div class="project-button">
-                                                <a href="project-details.html"><i class="far fa-plus"></i></a>
+                                            <img src="assets/images/marketing-agency/project/project1.jpg" alt="Project Image">
+                                            <div class="hover-content">
+                                                <div class="project-categories">
+                                                    <a href="#">Website</a>
+                                                    <a href="#">Landing Page</a>
+                                                    <a href="#">UI/UX</a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="content">
-                                            <div class="project-categories">
-                                                <a href="#">Mobile App</a>
-                                                <a href="#">UI/UX Design</a>
+                                            <h4><a href="project-details.html">Daily Schedule Mobile Apps</a></h4>
+                                            <p>A daily schedule app designed to help users efficiently plan, organize, activities.</p>
+                                        </div>
+                                    </div>
+                                    <!--=== Agk Project Item ===-->
+                                    <div class="agenko-project-item style-three mb-50 pf_fadeup">
+                                        <div class="thumbnail">
+                                            <img src="assets/images/marketing-agency/project/project2.jpg" alt="Project Image">
+                                            <div class="hover-content">
+                                                <div class="project-categories">
+                                                    <a href="#">Website</a>
+                                                    <a href="#">Landing Page</a>
+                                                    <a href="#">UI/UX</a>
+                                                </div>
                                             </div>
-                                            <h4 class="title"><a href="project-details.html">Medical Mobile Design & Development</a></h4>
+                                        </div>
+                                        <div class="content">
+                                            <h4><a href="project-details.html">Rawr Studio Website </a></h4>
+                                            <p>Rawr Studio is a creative agency specializing in bold, innovative designs.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <!--=== Project Item ===-->
-                                    <div class="agenko-project-item style-one mb-45 pf_fadeup">
+                                    <!--=== Agk Project Item ===-->
+                                    <div class="agenko-project-item style-three mt-50 pf_fadeup">
                                         <div class="thumbnail">
-                                            <img src="assets/images/digital-agency/project/project2.jpg" alt="Project Image">
-                                            <div class="project-button">
-                                                <a href="project-details.html"><i class="far fa-plus"></i></a>
+                                            <img src="assets/images/marketing-agency/project/project3.jpg" alt="Project Image">
+                                            <div class="hover-content">
+                                                <div class="project-categories">
+                                                    <a href="#">Website</a>
+                                                    <a href="#">Landing Page</a>
+                                                    <a href="#">UI/UX</a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="content">
-                                            <div class="project-categories">
-                                                <a href="#">Mobile App</a>
-                                                <a href="#">UI/UX Design</a>
-                                            </div>
-                                            <h4 class="title"><a href="project-details.html">Stacks Website Design & Coding</a></h4>
+                                            <h4><a href="project-details.html">Nexus Production Landing Page</a></h4>
+                                            <p>A production company delivering innovative solutions for film, video, and media.</p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <!--=== Project Item ===-->
-                                    <div class="agenko-project-item style-one mb-45 pf_fadeup">
+                                    <!--=== Agk Project Item ===-->
+                                    <div class="agenko-project-item style-three mt-50 pf_fadeup">
                                         <div class="thumbnail">
-                                            <img src="assets/images/digital-agency/project/project3.jpg" alt="Project Image">
-                                            <div class="project-button">
-                                                <a href="project-details.html"><i class="far fa-plus"></i></a>
+                                            <img src="assets/images/marketing-agency/project/project4.jpg" alt="Project Image">
+                                            <div class="hover-content">
+                                                <div class="project-categories">
+                                                    <a href="#">Website</a>
+                                                    <a href="#">Landing Page</a>
+                                                    <a href="#">UI/UX</a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="content">
-                                            <div class="project-categories">
-                                                <a href="#">Mobile App</a>
-                                                <a href="#">UI/UX Design</a>
-                                            </div>
-                                            <h4 class="title"><a href="project-details.html">Financial & Wallet Website Design</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <!--=== Project Item ===-->
-                                    <div class="agenko-project-item style-one mb-45 pf_fadeup">
-                                        <div class="thumbnail">
-                                            <img src="assets/images/digital-agency/project/project4.jpg" alt="Project Image">
-                                            <div class="project-button">
-                                                <a href="project-details.html"><i class="far fa-plus"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <div class="project-categories">
-                                                <a href="#">Mobile App</a>
-                                                <a href="#">UI/UX Design</a>
-                                            </div>
-                                            <h4 class="title"><a href="project-details.html">Sales Management Mobile App Design</a></h4>
+                                            <h4><a href="project-details.html">Financial Claim Dashboard</a></h4>
+                                            <p>A dashboard designed for tracking, managing, and streamlining financial claims.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section><!--======  End Project Section  ======-->
-                    <!--======  Start Who We Section  ======-->
-                    <section class="agk-who-we gray-dark pt-130 pb-70">
+                    <!--======  Start Features Section  ======-->
+                    <section class="agk-features gray-dark pt-120 pb-90">
                         <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <!--=== Section Title ===-->
+                                    <div class="section-title mb-45 pf_fadeup">
+                                        <span class="sub-title">How We Are</span>
+                                        <h2>We are leading Innovative
+                                            marketing agency.</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <!--=== Text Box ===-->
+                                    <div class="text-box mb-40 pf_fadeup">
+                                        <p>Leading Innovation <span>marketing agency</span> We are a leading innovative marketing agency, specializing in creative solutions that drive business growth, enhance brand visibility.</p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
-                                <div class="col-xl-5">
-                                    <!--=== Agk Content Box ===-->
-                                    <div class="agk-content-box mb-50 pf_fadeup">
-                                        <div class="section-title mb-30">
-                                            <span class="sub-title">What We Are</span>
-                                            <h2>Your Trusted Agency for Digital Success</h2>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <!--=== Agk Iconic Box ===-->
+                                    <div class="agenko-iconic-box style-seven mb-40 pf_fadeup">
+                                        <div class="icon">
+                                            <i class="flaticon-social-media-marketing"></i>
                                         </div>
-                                        <ul class="check-list style-one mb-40">
-                                            <li><i class="flaticon-check"></i>Passionate Problem-Solvers For Your Business</li>
-                                            <li><i class="flaticon-check"></i>Business & Financial Creative Innovators</li>
-                                            <li><i class="flaticon-check"></i>Provide National Trusted Client-Centered</li>
-                                            <li><i class="flaticon-check"></i>Perfect & Modern Work Results-Driven</li>
-                                            <li><i class="flaticon-check"></i>National Client Meet & Collaborative Partners</li>
-                                        </ul>
-                                        <div class="agk-button">
-                                            <a href="pricing.html" class="theme-btn style-one">
+                                        <div class="content">
+                                            <h4>Research</h4>
+                                            <p>We are a leading innovative marketing agency, specializing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <!--=== Agk Iconic Box ===-->
+                                    <div class="agenko-iconic-box style-seven mb-40 pf_fadeup">
+                                        <div class="icon">
+                                            <i class="flaticon-social-media-marketing"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Planning</h4>
+                                            <p>We are a leading innovative marketing agency, specializing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <!--=== Agk Iconic Box ===-->
+                                    <div class="agenko-iconic-box style-seven mb-40 pf_fadeup">
+                                        <div class="icon">
+                                            <i class="flaticon-social-media-marketing"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Development</h4>
+                                            <p>We are a leading innovative marketing agency, specializing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <!--=== Agk Iconic Box ===-->
+                                    <div class="agenko-iconic-box style-seven mb-40 pf_fadeup">
+                                        <div class="icon">
+                                            <i class="flaticon-social-media-marketing"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4> Deployment</h4>
+                                            <p>We are a leading innovative marketing agency, specializing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><!--======  End Project Section  ======-->
+                    <!--=== Start Testimonial Section ===-->
+                    <section class="agenko-testimonial pt-130 pb-130">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <!--=== Section Title ===-->
+                                    <div class="section-title mb-45 pf_fadeup">
+                                        <span class="sub-title">Client Feedback</span>
+                                        <h2>Hear from Our Satisfied 
+                                            Clients Feedback</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <!--=== Text Box ===-->
+                                    <div class="text-box mb-45 pf_fadeup">
+                                        <p>Discover how our clients achieved success with Binorly Agency's expert <span>web design and development</span>, delivering outstanding digital solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!--=== Agk Image Box ===-->
+                                    <div class="agenko-image-box agenko-rotate-image mb-50 pf_fadeup">
+                                        <div class="agenko-image">
+                                            <img src="assets/images/marketing-agency/testimonial/testimonial1.jpg" alt="Testimonial">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <!--=== Testimonial Slider ===-->
+                                    <div class="testimonial-slider mb-50 pf_fadeup">
+                                        <!--=== Agk Testimonial Item ===-->
+                                        <div class="agenko-testimonial-item style-three">
+                                            <div class="testimonial-content">
+                                                <ul class="ratings">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                                <p>Binorly Agency completely transformed our online presence! Their exceptional website development expertise went beyond expectations, creating a visually stunning and user-friendly website. The team's attention to detail and commitment to!</p>
+                                                <div class="author-item">
+                                                    <div class="author-info">
+                                                        <h4>Mr. David Liam</h4>
+                                                        <span class="position">CEO & Founder</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--=== Agk Testimonial Item ===-->
+                                        <div class="agenko-testimonial-item style-three">
+                                            <div class="testimonial-content">
+                                                <ul class="ratings">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                                <p>Binorly Agency completely transformed our online presence! Their exceptional website development expertise went beyond expectations, creating a visually stunning and user-friendly website. The team's attention to detail and commitment to!</p>
+                                                <div class="author-item">
+                                                    <div class="author-info">
+                                                        <h4>Mr. David Liam</h4>
+                                                        <span class="position">CEO & Founder</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><!--=== End Testimonial Section ===-->
+                    <!--=== Start CTA Section ===-->
+                    <section class="agk-cta">
+                        <div class="agenko-cta-wrappper gray-dark pt-40 pb-20">
+                            <div class="shape shape_one"><span></span></div>
+                            <div class="shape shape_two"><span></span></div>
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6">
+                                        <!--=== Section Title ===-->
+                                        <div class="section-title mb-30 pf_fadeup">
+                                            <h2>Ground-up to product 
+                                                design Sector.</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!--=== Agk Button ===-->
+                                        <div class="agenko-button float-lg-end mb-40 pf_fadeup">
+                                            <a href="contact.html" class="theme-btn style-one">
                                                 <span class="text-flip">
-                                                    <span class="text">LEARN MORE</span>
-                                                    <span class="text">LEARN MORE</span>
+                                                    <span class="text">Contact With Us</span>
+                                                    <span class="text">Contact With Us</span>
                                                 </span>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-7">
-                                    <!--=== Agk Video Box ===-->
-                                    <div class="agk-play-image-box mb-50 pf_fadeup">
-                                        <div class="agk-image style-four">
-                                            <img src="assets/images/digital-agency/features/who1.jpg" class="rounded-2" alt="Features">
-                                            <div class="play-box">
-                                                <a href="https://www.youtube.com/watch?v=PJK2253cVgc" class="video-popup"><i class="fas fa-play"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <!--=== Big Text ===-->
-                                <div class="big-text text-center mt-80 pt-70">
-                                    <h2 class="text-anm-two">DIGITAL MODERN AGENCY</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--======  End Who We Section  ======-->
-                    <!--======  Start Work Process Section  ======-->
-                    <section class="agk-work-process pt-130 pb-100">
+                    </section><!--=== End CTA Section ===-->
+                    <!--=== Start Blog Section ===-->
+                    <section class="agenko-blog pt-130 pb-80">
                         <div class="container">
                             <div class="row align-items-center">
-                                <div class="col-lg-7">
-                                    <!--=== Section Title ===-->
-                                    <div class="section-title mb-50 pf_fadeup">
-                                        <span class="sub-title">Work Process</span>
-                                        <h2>How We Deliver Outstanding 
-                                            High Productivity Results</h2>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <!--=== Text Box ===-->
-                                    <div class="text-box mb-55 pf_fadeup">
-                                        <p>Creating cutting-edge digital experience that innovation and functionality to meet the evolving tomorrow’s businesses and users</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <!--=== Iconic Box ===-->
-                                    <div class="agenko-iconic-box style-two mb-40 pf_fadeup">
-                                        <div class="icon">
-                                            <i class="flaticon-analytics"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Research & Planning</h4>
-                                            <p>Creating cutting-edge digital pro experience that innovation</p>
-                                            <div class="step">Step-01</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <!--=== Iconic Box ===-->
-                                    <div class="agenko-iconic-box style-two mb-40 pf_fadeup">
-                                        <div class="icon">
-                                            <i class="flaticon-analytics"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Concept & Design</h4>
-                                            <p>Innovative concepts and designs tailored for functional.</p>
-                                            <div class="step">Step-02</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <!--=== Iconic Box ===-->
-                                    <div class="agenko-iconic-box style-two mb-40 pf_fadeup">
-                                        <div class="icon">
-                                            <i class="flaticon-analytics"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Testing & Quality</h4>
-                                            <p>Comprehensive testing ensures exceptional quality.</p>
-                                            <div class="step">Step-03</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 col-sm-12">
-                                    <!--=== Iconic Box ===-->
-                                    <div class="agenko-iconic-box style-two mb-40 pf_fadeup">
-                                        <div class="icon">
-                                            <i class="flaticon-analytics"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Help & Support</h4>
-                                            <p>Dedicated help and support for seamless customer.</p>
-                                            <div class="step">Step-04</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--======  End Work Process Section  ======-->
-                    <!--======  Start Testimonial Section  ======-->
-                    <section class="agk-testimonial gray-dark pt-130 pb-80">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--=== Section Title ===-->
-                                    <div class="section-title text-center mb-50 pf_fadeup">
-                                        <span class="sub-title">Testimonials</span>
-                                        <h2>Success Stories From Around the Globe</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <!--=== Agk Image Box ===-->
-                                    <div class="agk-image-box mb-50 pf_fadeup">
-                                        <div class="agk-image">
-                                            <img src="assets/images/digital-agency/testimonial/testimonial_img1.jpg" class="animated-image" alt="testimonial image">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <div class="testimonial-wrapper mb-50 pf_fadeup">
-                                        <!--=== Testimonial Slider ===-->
-                                        <div class="testimonial-slider">
-                                            <!--=== Testimonial Item ===-->
-                                            <div class="agenko-testimonial-item style-one">
-                                                <div class="testimonial-content">
-                                                    <ul class="ratings">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                    </ul>
-                                                    <p>Binorly Agency completely transformed our online presence! Their exceptional website development expertise went beyond expectations, creating a visually stunning and user-friendly website.</p>
-                                                    <div class="author-item-quote d-flex justify-content-between align-items-center">
-                                                        <div class="author-item">
-                                                            <div class="author-info">
-                                                                <h4>Ms. Alex Mika</h4>
-                                                                <h5>CEO & Founder</h5>
-                                                            </div>
-                                                        </div>
-                                                        <div class="quote">
-                                                            <i class="flaticon-inverted-commas"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--=== Testimonial Item ===-->
-                                            <div class="agenko-testimonial-item style-one">
-                                                <div class="testimonial-content">
-                                                    <ul class="ratings">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                    </ul>
-                                                    <p>Binorly Agency completely transformed our online presence! Their exceptional website development expertise went beyond expectations, creating a visually stunning and user-friendly website.</p>
-                                                    <div class="author-item-quote d-flex justify-content-between align-items-center">
-                                                        <div class="author-item">
-                                                            <div class="author-info">
-                                                                <h4>Ms. Alex Mika</h4>
-                                                                <h5>CEO & Founder</h5>
-                                                            </div>
-                                                        </div>
-                                                        <div class="quote">
-                                                            <i class="flaticon-inverted-commas"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--======  End Testimonial Section  ======-->
-                    <!--======  Start Faq Section  ======-->
-                    <section class="agk-faq pt-130 pb-80">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-7">
-                                    <!--=== Section Title ===-->
-                                    <div class="section-title mb-50 pf_fadeup">
-                                        <span class="sub-title">FAQ</span>
-                                        <h2>Got Questions? We’ve Got Answers</h2>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <!--=== Big Text ===-->
-                                    <div class="faq-big-text">Faq’s</div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <!--=== Agk Image Box ===-->
-                                    <div class="agk-image-box mb-50 pf_fadeup">
-                                        <div class="agk-image">
-                                            <img src="assets/images/digital-agency/faq/faq1.jpg" alt="faq image">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="agk-content-box mb-30">
-                                        <!--====== Accordion  ======-->
-                                        <div class="agk-accordion" id="accordionOne">
-                                            <!--====== Accordion Item  ======-->
-                                            <div class="agenko-accordion-item mb-20 pf_fadeup">
-                                                <div class="accordion-header">
-                                                    <h6 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true">
-                                                        What services does your agency provide?
-                                                    </h6>
-                                                </div>
-                                                <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
-                                                    <div class="accordion-content">
-                                                        <p>We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--====== Accordion Item  ======-->
-                                            <div class="agenko-accordion-item mb-20 pf_fadeup">
-                                                <div class="accordion-header">
-                                                    <h6 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false">
-                                                        Can I update the website content myself?
-                                                    </h6>
-                                                </div>
-                                                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
-                                                    <div class="accordion-content">
-                                                        <p>We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--====== Accordion Item  ======-->
-                                            <div class="agenko-accordion-item mb-20 pf_fadeup">
-                                                <div class="accordion-header">
-                                                    <h6 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false">
-                                                        How does the web design process work?
-                                                    </h6>
-                                                </div>
-                                                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
-                                                    <div class="accordion-content">
-                                                        <p>We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--====== Accordion Item  ======-->
-                                            <div class="agenko-accordion-item mb-20 pf_fadeup">
-                                                <div class="accordion-header">
-                                                    <h6 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false">
-                                                        How long will my project take to complete?
-                                                    </h6>
-                                                </div>
-                                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
-                                                    <div class="accordion-content">
-                                                        <p>We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--====== Accordion Item  ======-->
-                                            <div class="agenko-accordion-item mb-20 pf_fadeup">
-                                                <div class="accordion-header">
-                                                    <h6 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false">
-                                                        Do you offer website maintenance and support?
-                                                    </h6>
-                                                </div>
-                                                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
-                                                    <div class="accordion-content">
-                                                        <p>We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--====== Accordion Item  ======-->
-                                            <div class="agenko-accordion-item mb-20 pf_fadeup">
-                                                <div class="accordion-header">
-                                                    <h6 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false">
-                                                        Can you redesign my existing website?
-                                                    </h6>
-                                                </div>
-                                                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
-                                                    <div class="accordion-content">
-                                                        <p>We build websites using content management systems (CMS) like WordPress, Shopify, or custom CMS, which allows you to easily update your content, add pages, and make changes without any coding knowledge.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--======  End Faq Section  ======-->
-                    <!--======  Start Team Section  ======-->
-                    <section class="agk-team">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--=== Section Title  ===-->
-                                    <div class="section-title text-center mb-50 pf_zoomIn">
-                                        <span class="sub-title">Our Team</span>
-                                        <h2>Success Stories From Around the Globe</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--=== Team Item  ===-->
-                                    <div class="agenko-team-item style-two mb-40 pf_fadeup">
-                                        <div class="member-image">
-                                            <img src="assets/images/digital-agency/team/team1.jpg" alt="Team image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title">Mr. David Liam</h4>
-                                            <p class="position">CEO & Founder</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--=== Team Item  ===-->
-                                    <div class="agenko-team-item style-two mb-40 pf_fadeup">
-                                        <div class="member-image">
-                                            <img src="assets/images/digital-agency/team/team2.jpg" alt="Team image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title">Miss Alex Mika</h4>
-                                            <p class="position">CTA</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--=== Team Item  ===-->
-                                    <div class="agenko-team-item style-two mb-40 pf_fadeup">
-                                        <div class="member-image">
-                                            <img src="assets/images/digital-agency/team/team3.jpg" alt="Team image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title">Mr. John Smith</h4>
-                                            <p class="position">Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <!--=== Team Item  ===-->
-                                    <div class="agenko-team-item style-two mb-40 pf_fadeup">
-                                        <div class="member-image">
-                                            <img src="assets/images/digital-agency/team/team4.jpg" alt="Team image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title">Jessika Joya</h4>
-                                            <p class="position">Marketer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--======  End Team Section  ======-->
-                    <!--======  Start Client Section  ======-->
-                    <section class="agk-client gray-dark pt-130 pb-130">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--=== Section Title  ===-->
-                                    <div class="section-title text-center mb-50 pf_zoomIn">
-                                        <span class="sub-title">Our Client</span>
-                                        <h2>Our Global Client</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--=== Clients Wrapper  ===-->
-                                    <div class="client-list pf_fadeup">
-                                        <ul>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client1.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client2.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client3.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client4.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client5.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client6.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client7.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client8.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client9.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <!--=== Client Item  ===-->
-                                                <div class="agenko-client-item style-one">
-                                                    <div class="client-image">
-                                                        <img src="assets/images/digital-agency/client/client10.png" alt="client img">
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--======  End Client Section  ======-->
-                    <!--======  Start Blogs Section  ======-->
-                    <section class="agk-blogs pt-130 pb-90">
-                        <div class="container">
-                            <div class="row">
                                 <div class="col-lg-6">
                                     <!--=== Section Title ===-->
                                     <div class="section-title mb-50 pf_fadeup">
-                                        <span class="sub-title">Latest Blog</span>
-                                        <h2>Our Global Client</h2>
+                                        <span class="sub-title">Latest Blogs </span>
+                                        <h2>Expert Insights and News
+                                            Stay Ahead with Us</h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <!--=== Button ===-->
-                                    <div class="agk-button float-lg-end mb-60 pf_fadeup">
-                                        <a href="blog-grid.html" class="theme-btn style-one">
-                                            <span class="text-flip">
-                                                <span class="text">View All Blogs</span>
-                                                <span class="text">View All Blogs</span>
-                                            </span>
-                                        </a>
-                                    </div>    
+                                    <!--=== Agk Button ===-->
+                                    <div class="text-box mb-40 pf_fadeup">
+                                        <p>Explore expert insights, industry trends, and the latest digital news to keep your business informed and ahead of the competition</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <!--=== Blog Post Item ===-->
-                                    <div class="agenko-blog-item style-one mb-40 pf_fadeup">
-                                        <div class="post-hover-wrap bg_cover" style="background-image: url(assets/images/digital-agency/blog/blog1.jpg);">
-                                            <div class="agk-button">
-                                                <a href="blog-details.html" class="theme-btn style-one">
-                                                    <span class="text-flip">
-                                                        <span class="text">Read More</span>
-                                                        <span class="text">Read More</span>
-                                                    </span>
-                                                </a>
-                                            </div>
+                                <div class="col-lg-6">
+                                    <!--=== Agk Blog Post ===-->
+                                    <div class="agenko-blog-item style-three mb-40 pf_fadeup">
+                                        <div class="post-thumbnail">
+                                            <img src="assets/images/marketing-agency/blog/blog1.jpg" alt="Blog Image">
                                         </div>
-                                        <div class="post-inner-wrap">
-                                            <div class="author-item">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/digital-agency/blog/author1.jpg" alt="Author Image">
-                                                </div>
-                                                <div class="author-info">
-                                                    <span>Posted By</span>
-                                                    <h4>Mr. David Liam</h4>
-                                                </div>
-                                            </div>
+                                        <div class="post-content-wrap">
                                             <div class="post-content">
-                                                <h3 class="title"><a href="blog-details.html">How to Start a Blog Beginner Best 
-                                                    Modern Agency</a></h3>
-                                                <div class="post-categories">
-                                                    <a href="#">Website</a>
-                                                    <a href="#">Landing Page</a>
+                                                <div class="post-meta">
+                                                    <span><a href="#">Web Design</a></span>
+                                                    <span><a href="#">02 Oct, 2025</a></span>
                                                 </div>
+                                                <h4 class="title"><a href="blog-details.html">Creative Javanese a Lead Designer & Mobile 
+                                                    UI/UX Core Checklist</a></h4>
                                             </div>
-                                            <div class="post-date">
-                                                <i class="flaticon-calendar"></i>
-                                                <a href="#">01 January 2025</a>
+                                            <div class="post-button">
+                                                <a href="blog-details.html" class="icon-btn style-one"><i class="far fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <!--=== Blog Post Item ===-->
-                                    <div class="agenko-blog-item style-one mb-40 pf_fadeup">
-                                        <div class="post-hover-wrap bg_cover" style="background-image: url(assets/images/digital-agency/blog/blog1.jpg);">
-                                            <div class="agk-button">
-                                                <a href="blog-details.html" class="theme-btn style-one">
-                                                    <span class="text-flip">
-                                                        <span class="text">Read More</span>
-                                                        <span class="text">Read More</span>
-                                                    </span>
-                                                </a>
-                                            </div>
+                                <div class="col-lg-6">
+                                    <!--=== Agk Blog Post ===-->
+                                    <div class="agenko-blog-item style-three mb-40 pf_fadeup">
+                                        <div class="post-thumbnail">
+                                            <img src="assets/images/marketing-agency/blog/blog2.jpg" alt="Blog Image">
                                         </div>
-                                        <div class="post-inner-wrap">
-                                            <div class="author-item">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/digital-agency/blog/author2.jpg" alt="Author Image">
-                                                </div>
-                                                <div class="author-info">
-                                                    <span>Posted By</span>
-                                                    <h4>Mr. David Liam</h4>
-                                                </div>
-                                            </div>
+                                        <div class="post-content-wrap">
                                             <div class="post-content">
-                                                <h3 class="title"><a href="blog-details.html">How to Start a Blog Beginner Best 
-                                                    Modern Agency</a></h3>
-                                                <div class="post-categories">
-                                                    <a href="#">Website</a>
-                                                    <a href="#">Landing Page</a>
+                                                <div class="post-meta">
+                                                    <span><a href="#">Web Design</a></span>
+                                                    <span><a href="#">02 Oct, 2025</a></span>
                                                 </div>
+                                                <h4 class="title"><a href="blog-details.html">Defensive Guide to Make a Daily More Creative 
+                                                    Website Productive Working Flow</a></h4>
                                             </div>
-                                            <div class="post-date">
-                                                <i class="flaticon-calendar"></i>
-                                                <a href="#">02 January 2025</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <!--=== Blog Post Item ===-->
-                                    <div class="agenko-blog-item style-one mb-40 pf_fadeup">
-                                        <div class="post-hover-wrap bg_cover" style="background-image: url(assets/images/digital-agency/blog/blog1.jpg);">
-                                            <div class="agk-button">
-                                                <a href="blog-details.html" class="theme-btn style-one">
-                                                    <span class="text-flip">
-                                                        <span class="text">Read More</span>
-                                                        <span class="text">Read More</span>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="post-inner-wrap">
-                                            <div class="author-item">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/digital-agency/blog/author1.jpg" alt="Author Image">
-                                                </div>
-                                                <div class="author-info">
-                                                    <span>Posted By</span>
-                                                    <h4>Mr. David Liam</h4>
-                                                </div>
-                                            </div>
-                                            <div class="post-content">
-                                                <h3 class="title"><a href="blog-details.html">How to Start a Blog Beginner Best 
-                                                    Modern Agency</a></h3>
-                                                <div class="post-categories">
-                                                    <a href="#">Website</a>
-                                                    <a href="#">Landing Page</a>
-                                                </div>
-                                            </div>
-                                            <div class="post-date">
-                                                <i class="flaticon-calendar"></i>
-                                                <a href="#">05 January 2025</a>
+                                            <div class="post-button">
+                                                <a href="blog-details.html" class="icon-btn style-one"><i class="far fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section><!--=== End Blog Section ===-->
                 </main>
-                <!--====== Start Footer Area ======-->
-                <footer class="agenko-footer gray-dark pt-130 primary-black-bg">
-                    <div class="shape shape-one"><span><img class="rotate360" src="assets/images/digital-agency/footer/element1.png" alt="Shape"></span></div>
-                    <div class="shape shape-two"><span><img class="rotate360" src="assets/images/digital-agency/footer/element2.png" alt="Shape"></span></div>
-                    <div class="shape shape-blur_one"><span></span></div>
-                    <div class="shape shape-blur_two"><span></span></div>
-                    <!--=== Footer Widget Area ===-->
-                    <div class="footer-widget-area pb-80">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <!--=== Footer Widget ===-->
-                                    <div class="footer-widget footer-about-widget mb-40 pf_fadeup">
-                                        <div class="footer-content">
-                                            <div class="footer-logo">
-                                                <a href="index.html"><img src="assets/images/digital-agency/logo/logo-main.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <p>Agenko creative digital agency delivering innovate web Development marketing.</p>
-                                            <form>
-                                                <div class="form-group">
-                                                    <input type="email" class="form_control" placeholder="Email Address" name="email" required>
-                                                    <label><i class="far fa-envelope"></i></label>
-                                                    <button class="theme-btn style-two">Subscribe</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 ">
-                                    <!--=== Footer Widget ===-->
-                                    <div class="footer-widget footer-contact-info-widget mb-40 pf_fadeup">
-                                        <div class="footer-content mb-25">
-                                            <h4 class="widget-title">Main Address</h4>
-                                            <p>6801 Hollywood Blvd, Los Angeles, CA 90028</p>
-                                        </div>
-                                        <div class="footer-content mb-25">
-                                            <h4 class="widget-title">Sub-Address</h4>
-                                            <p>200 Santa Monica Pier, Santa Monica, CA 90401</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-md-12">
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <!--=== Footer Widget ===-->
-                                            <div class="footer-widget footer-nav-widget mb-40 pf_fadeup">
-                                                <div class="footer-content mb-35">
-                                                    <h4 class="widget-title">Our Link</h4>
-                                                    <ul class="footer-nav">
-                                                        <li>
-                                                            <a href="about.html">About us</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="services.html">Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="projects.html">Our Project</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="faqs.html">FAQ</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="contact.html">Contact us</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <!--=== Footer Widget ===-->
-                                            <div class="footer-widget footer-contact-widget mb-40 pf_fadeup">
-                                                <div class="footer-content">
-                                                    <h4 class="widget-title">Contact</h4>
-                                                    <div class="agenko-iconic-box style-three mb-30">
-                                                        <div class="icon">
-                                                            <i class="far fa-envelope"></i>
-                                                        </div>
-                                                        <div class="content">
-                                                            <h6>Email</h6>
-                                                            <p><a href="mailto:info@agenko.com">info@agenko.com</a></p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="agenko-iconic-box style-three">
-                                                        <div class="icon">
-                                                            <i class="far fa-phone-alt"></i>
-                                                        </div>
-                                                        <div class="content">
-                                                            <h6>Phone</h6>
-                                                            <p><a href="tel:+555-7659-9854">+555-7659-9854</a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--=== Footer Copyright ===-->
-                    <div class="footer-copyright">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <!--=== Copyright Text ===-->
-                                    <div class="copyright-text">
-                                        <p>&copy; 2025 <span>Agenko</span> - All Rights Reserved.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <!--=== Copyright Nav ===-->
-                                    <div class="copyright-nav">
-                                        <ul>
-                                            <li><a href="#">Terms & Condition</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer><!--====== End Footer  ======-->
+                @include('partials.footer')
             </div>
         </div>
         <!--====== Jquery js ======-->
@@ -1274,5 +642,4 @@
         <script src="assets/js/plugins/jquery.counterup.min.js"></script>
         <!--====== Main js ======-->
         <script src="assets/js/theme.js"></script>
-    </body>
-</html>
+@endsection
